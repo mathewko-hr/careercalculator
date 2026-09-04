@@ -1,0 +1,6 @@
+v2.2 PDF password support
+
+- Added optional six-digit date-of-birth PDF password input.
+- Password is used only in memory during analysis.
+- Password is not stored in SQLite, audit logs, snapshots, or filenames.
+- Encrypted PDFs are authenticated with PyMuPDF before text extraction/OCR.

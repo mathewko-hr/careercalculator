@@ -1,0 +1,2 @@
+v2.1 nav_page callback fix
+Replace app.py only if v2 is already installed.
